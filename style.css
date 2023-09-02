@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-color: aquamarine;
+}
+.top {
+  height: 60%;
+  /* background-color: #f2ff; */
+  width: 100%;
+  background-image: url(/assets/Rectangle\ 1.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 25vw;
+}
+.top h1 {
+  padding-left: 10vw;
+  font-size: 7vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+.top p {
+  padding: 0 5vw 0vw 14vw;
+}
+.bottom {
+  background-color: rgb(227, 62, 62);
+  height: 40%;
+  width: 100%;
+  display: flex;
+}
+.bone {
+  height: 100%;
+  width: 25%;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+}
+.bone h3 {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+}
+.bone p {
+  padding: 10px;
+  font-size: 1vw;
+}
+.btwo {
+  height: 100%;
+  width: 25%;
+  background-image: url(/assets/Rectangle\ 3.png);
+  background-position: center;
+  background-size: cover;
+}
+.bthree {
+  height: 100%;
+  width: 25%;
+  background-color: rgb(60, 120, 25);
+}
+.bfour {
+  height: 100%;
+  width: 25%;
+  background-color: rgb(201, 175, 4);
+  padding: 20px;
+}
+.bfour h3 {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+}
+.bfour .img1 {
+  display: flex;
+  height: 30%;
+  width: 90%;
+  overflow: hidden;
+}
+.bfour .img1 img {
+  height: 50px;
+  margin: 0 20px;
+}
+.bfour .img2 {
+  display: flex;
+  height: 30%;
+  width: 90%;
+  overflow: hidden;
+}
+.bfour .img2 img {
+  height: 53px;
+  margin: 0 20px;
+}
+
+.bthreetop {
+  padding: 20px;
+  height: 50%;
+  width: 100%;
+  background-color: #431b52;
+  color: #fff;
+}
+.bthreetop h4 {
+  padding: 10px 15px;
+}
+.bthreetop p {
+  padding: 15px;
+}
+.bthreebottom {
+  height: 50%;
+  width: 100%;
+  background-image: url(/assets/Rectangle\ 7.png);
+  background-position: center;
+  background-size: 101.6%;
+}
